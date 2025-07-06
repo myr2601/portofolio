@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yaqubminty</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+  <div class="header-logo">
+    <img src="img/logo.png" alt="Logo">
+  </div>
+
+  <nav class="header-nav">
+    <a href="#about">Tentang</a>
+    <a href="#skills">Keahlian</a>
+    <a href="#projects">Proyek</a>
+    <a href="#contact">Kontak</a>
+  </nav>
+
+  <div class="hamburger" onclick="toggleMenu(this)">
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#about">Tentang</a>
+  <a href="#skills">Keahlian</a>
+  <a href="#projects">Proyek</a>
+  <a href="#contact">Kontak</a>
+</div>
+
+</header>
+
+
+<section id="about" class="fade-in-section">
+    <div class="container">
+        <h2>Tentang Saya</h2>
+        <div class="about-content-wrapper">
+            <div class="about-image">
+                <img src="img/aku.jpg" alt="Foto Muhammad Yaqub">
+            </div>
+            <div class="about-text">
+                <p>
+                    Saya seorang <strong>teknisi fiber optik berpengalaman sejak 2017</strong>, dengan keahlian mendalam dalam infrastruktur jaringan telekomunikasi. Saya sangat terbiasa menghandle server OLT (Optical Line Terminal) untuk manajemen jaringan optik pasif (PON), serta menguasai berbagai aspek topologi jaringan GPON Telkom. Dedikasi saya adalah memastikan konektivitas yang stabil dan efisien untuk mendukung kebutuhan komunikasi digital modern. Saya berkomitmen untuk memberikan solusi terbaik dalam instalasi, konfigurasi, dan pemeliharaan jaringan fiber optik.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="skills" class="fade-in-section">
+    <div class="container">
+        <h2>Keahlian</h2>
+        <div class="skills-grid">
+            <div class="skill-item">
+                <h3>Jaringan Fiber Optik</h3>
+                <ul>
+                    <li>Instalasi Fiber Optik (FTTH, FTTB)</li>
+                    <li>Penyambungan Fiber Optik (Splicing)</li>
+                    <li>Pengujian Kabel Fiber (OTDR, Power Meter)</li>
+                    <li>Pemeliharaan dan Perbaikan Jaringan FO</li>
+                </ul>
+            </div>
+            <div class="skill-item">
+                <h3>Manajemen OLT & GPON</h3>
+                <ul>
+                    <li>Konfigurasi & Administrasi Server OLT</li>
+                    <li>Manajemen ONT/ONU</li>
+                    <li>Implementasi Topologi Jaringan GPON Telkom</li>
+                    <li>Optimasi Performa Jaringan PON</li>
+                </ul>
+            </div>
+            <div class="skill-item">
+                <h3>Troubleshooting & Operasional</h3>
+                <ul>
+                    <li>Diagnosa dan Perbaikan Gangguan Jaringan</li>
+                    <li>Pemahaman Protokol Jaringan (TCP/IP)</li>
+                    <li>Manajemen Proyek Teknis</li>
+                    <li>Keamanan Jaringan Dasar</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="projects" class="fade-in-section">
+    <div class="container">
+        <h2>Proyek & Pencapaian</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="img/odc.jpg" alt="Proyek Instalasi FTTH">
+                <div class="project-card-content">
+                    <h3>Implementasi Jaringan FTTH Perumahan</h3>
+                    <p>Memimpin tim dalam instalasi jaringan Fiber to The Home (FTTH) di kompleks perumahan baru, mencakup desain topologi, splicing, dan aktivasi pelanggan.</p>
+                    <a href="#" class="button">Lihat Detail</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="img/olt.jpg" alt="Proyek Konfigurasi OLT">
+                <div class="project-card-content">
+                    <h3>Optimasi Konfigurasi Server OLT Regional</h3>
+                    <p>Melakukan konfigurasi ulang dan optimasi server OLT untuk meningkatkan stabilitas dan kecepatan akses internet bagi ratusan pelanggan di area regional.</p>
+                    <a href="#" class="button">Lihat Detail</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="img/recovery.jpg" alt="Proyek Troubleshooting Jaringan">
+                <div class="project-card-content">
+                    <h3>Penanganan Gangguan Massal Jaringan GPON</h3>
+                    <p>Berhasil mengidentifikasi dan memperbaiki penyebab gangguan jaringan GPON berskala besar, meminimalkan downtime dan memulihkan layanan dengan cepat.</p>
+                    <a href="#" class="button">Lihat Detail</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="fade-in-section">
+    <div class="container">
+        <h2>Kontak</h2>
+        <p>Tertarik untuk berdiskusi lebih lanjut tentang proyek atau kesempatan kerja? Jangan ragu untuk menghubungi saya!</p>
+        <div class="contact-options">
+            <a href="mailto:mhdyaqub7750@gmail.com" class="button">Kirim Email</a>
+            <a href="https://wa.me/6282219904042" target="_blank" class="button">WhatsApp Saya</a>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <p>&copy; 2025 Muhammad Yaqub.</p>
+        <div class="social-links">
+            <a href="https://www.instagram.com/yaqubminty/" target="_blank">Instagram</a> |
+            <a href="https://github.com/myr2601" target="_blank">GitHub</a>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
